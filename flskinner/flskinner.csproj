@@ -158,7 +158,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Default\flskinner.json" />
     <EmbeddedResource Include="Default\skins\SimpleDarkSkin.json" />
-    <EmbeddedResource Include="Default\skins\Plain.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
