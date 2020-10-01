@@ -1,0 +1,569 @@
+{
+"name": "Default FL (Annotated)",
+"author": "Graut",
+
+// Made on FL 20.7 FLSkinner 1.0.19
+// Documentation based on NuclearDark V2.5 by Graut
+
+"dfmReplacements": {
+
+    "#FB9244": "#FB9244", // ButtonBackground
+    "#BEC6CA": "#BEC6CA", // SamplerWaveform
+    
+    "#475056": "#475056", // GeneralUIPaneBackgrounds/SuggestedOptions
+    "#363C40": "#363C40", // GeneralUIPaneBackgrounds
+
+    "#31373B": "#31373B", // GeneralUIFarthestBackBackground/SecondaryOptions
+    "#21272B": "#21272B", // GeneralUIMiscDetailedSettingsBackgrounds/SelectedOptions 
+
+    "#3f484d": "#3f484d", // GeneralUIWindowBorders/TopOfBrowser/MasterPitchAndMasterVolumeKnobsRailAndCapColor
+    "#bfced5": "#bfced5", // GeneralUIMasterPitchAndMasterVolumeKnobsFillColor [NEW]
+    "#DFEEF5": "#DFEEF5", // GeneralUIMasterPitchAndMasterVolumeKnobsMouseOverPressedFillColor [NEW]
+	
+    "#FF9637": "#FF9637", // GeneralUIWindowCloseMouseOverColor/GeneralUIMixerOptionsMouseOverColor
+    "#38B4FE": "#38B4FE", // GeneralUIWindowCaptionizeMaximizeMouseOverColor
+
+    "#FF9B37": "#FF9B37", // GeneralUITempoTapperTapButtonPressedBackgroundColor [NEW]
+    "#CBCFD3": "#CBCFD3", // GeneralUITempoTapperTapButtonFontColor [NEW] 
+
+    "#2E3337": "#2E3337", // GeneralUIMiscDropdowns (Mixer audio I/O and Toolbar snap) [NEW]
+    "#262B2F": "#262B2F", // GeneralUIMiscComboboxes/SettingsPressedTabBackgrounds [NEW]
+
+    "#B9BFC3": "#B9BFC3", // GeneralUIMainFontColor1 [NEW]
+    "#C1C7CB": "#C1C7CB", // GeneralUIMainFontColor2 [NEW]
+    "#9FA8AD": "#9FA8AD", // GeneralUIMainFontColor3 [NEW]
+    "#C9CFD3": "#C9CFD3", // GeneralUIMainFontColor4 [NEW]
+    "#D9DFE3": "#D9DFE3", // GeneralUISecondaryFontColor1 [NEW]
+
+    "#40474D": "#40474D", // GeneralUIUnpressedMiscKnobCapColor [NEW]
+    "#4A5158": "#4A5158", // GeneralUIMouseOverPressedMiscKnobCapColor [NEW]
+    "#242A2E": "#242A2E", // GeneralUIChannelPanVolPitchRailColor/SettingsFileGridHeading [NEW]
+    "#353B3F": "#353B3F", // GeneralUIChannelSampleStartOffsetKnobRailColor [NEW]
+    "#2A2F33": "#2A2F33", // GeneralUIChannelCutSelfAndResetAndSampleFileButtonBackgroundColor [NEW]
+    "#ECDBB0": "#ECDBB0", // GeneralUIChannelMixerTrackAndPitchRangeNumberWheelFontColor
+    "#FF4E60": "#FF4E60", // GeneralUIRedSliderFillColor
+    "#DF404F": "#DF404F", // GeneralUIRedSliderFillMouseOverPressedColor
+    "#525B61": "#525B61", // GeneralUIChannelRackMainSwingKnobRailColor/GeneralUIMixerTrackEQKnobsRailColor [NEW]
+    "#50575D": "#50575D", // GeneralUIChannelRackMainSwingKnobCapColor/GeneralUIMixerTrackEQKnobsCapColor [NEW]
+    "#80878D": "#80878D", // GeneralUIMixerEQKnobAndSliderHandleColor
+    "#FFBE5D": "#FFBE5D", // GeneralUIMixerEQKnobAndSliderFillColor
+    "#FB7962": "#FB7962", // GeneralUIMixerEQKnobAndSliderFillMouseOverPressedColor
+    "#FF8040": "#FF8040", // GeneralUIChannelRackMainSwingKnobUnpressedFillColor/SettingsGeneralSmoothingFactorRedSliderMouseOverPressedFillColor [NEW]
+    "#723C43": "#723C43", // GeneralUIChannelMixerTrackAndPitchRangeNumberWheelBackgroundColor
+    "#FFA830": "#FFA830", // GeneralUIUnpressedOrangeKnobFillColor [NEW]
+    "#FF7E31": "#FF7E31", // GeneralUIMouseOverPressedOrangeKnobFillColor [NEW]
+    "#272D2E": "#272D2E", // GeneralUIReverbTypeSwitchBackgroundColor
+    "#48555B": "#48555B", // GeneralUIReverbTypeSwitchBorderColor
+
+    "#B1C0C7": "#B1C0C7", // GeneralUINumberWheelBackgroundColor [NEW]
+
+    "#FE8025": "#FE8025", // MiniPianoRootNotePressed [NEW]
+    "#87B9F6": "#87B9F6", // MiniPianoRootNoteSelected [NEW]
+    "#CFD3DA": "#CFD3DA", // MiniPianoWhiteKeys [NEW]
+    "#2F3031": "#2F3031", // MiniPianoBlackKeys [NEW]
+
+    "#363B3F": "#363B3F", // SettingsUnpressedTabBackgrounds [NEW]
+    "#32373B": "#32373B", // SettingsSideButtons [NEW]
+    "#333C42": "#333C42", // SettingsAudioBufferLengthBoxBackground [NEW]
+    "#2D3337": "#2D3337", // SettingsShowASIOPanelButtonBackground [NEW]
+    "#435158": "#435158", // SettingsUnlockWithAccountBoxBackground [NEW]
+    "#374248": "#374248", // SettingsAccountLoginShowPasswordBackground [NEW]
+    "#415158": "#415158", // SettingsAccountLoginBoxBackground [NEW]
+    "#A7AEB4": "#A7AEB4", // SettingsUnlockWithFIleFontColor [NEW]
+    "#4D565C": "#4D565C", // SettingsMainBackgroundAndTopAboutGradient [NEW]
+    "#44565F": "#44565F", // SettingsBottomAboutGradient [NEW]
+    "#3C454B": "#3C454B", // SettingsBorder [NEW]
+    "#2B3339": "#2B3339", // SettingsGridLines [NEW]
+    "#313A40": "#313A40", // SettingsRowsShaded [NEW]
+    "#7E343C": "#7E343C", // SettingsNumberWheelBackground [NEW]
+    "#FFEAAA": "#FFEAAA", // SettingsNumberWheelFontColor [NEW]
+
+    "#353E44": "#353E44", // SettingsInputBoxBackgrounds (Switching to hook makes it transparent?) [NEW]
+    "#E9EFF3": "#E9EFF3", // SettingsProjectInfoInputFontColor [NEW]
+    "#CCD1D5": "#CCD1D5", // SettingsDebugAndScriptOutput [NEW]
+
+    "#596267": "#596267", // Toolbar
+    "#5f7374": "#5f7374", // ToolbarMenuPanel
+    "#E6F8F9": "#E6F8F9", // ToolbarMenuPanelMainFontColor [NEW]
+    "#3A4247": "#3A4247", // ToolbarSongPositionSlider/SnapIcon [NEW]
+    "#4A5257": "#4A5257", // ToolbarSongPositionSliderPressed (Also the fill) [NEW]
+    "#7C858A": "#7C858A", // ToolbarSongPositionSliderRail [NEW]
+    "#536566": "#536566", // ToolbarTimerBackground
+    "#9FCF59": "#9FCF59", // ToolbarSongButtonActivated [NEW]
+    "#B9C8CF": "#B9C8CF", // ToolbarPatternSelectorAndTempoPanelBackgrounds [NEW]
+    "#1F282D": "#1F282D", // ToolbarPatternSelectorFontColor/GeneralUINumberWheelFontColor [NEW]
+    "#0F181D": "#0F181D", // ToolbarTempoSelectorFontColor [NEW]
+    "#D0D8DC": "#D0D8DC", // ToolbarButtonsDefaultFontColor (Ignored for specific buttons specified by name in dfm) [NEW]
+    "#DCECED": "#DCECED", // ToolbarButtonsLaunchContentAndShopFontColor (Ignored for specific buttons specified by name in dfm) [NEW]
+    "#30383d": "#30383d", // ToolbarCPU
+    "#242C31": "#242C31", // ToolbarCPUBackground
+    "#3e464b": "#3e464b", // ToolbarMonitors/HintPanel
+
+    "#677075": "#677075", // ToolbarEditorShading [NEW] 
+
+    "#95E47A": "#95E47A", // BrowserCollapseAndRefresh [NEW]
+    "#FFBC40": "#FFBC40", // BrowserSnapshot [NEW]
+    "#95E47A": "#95E47A", // BrowserFind [NEW]
+    "#2A3338": "#2A3338", // BrowserSlider
+    "#434C51": "#434C51", // BrowserScaler
+
+    "#50595e": "#50595e", // PlaylistCorner
+    "#273035": "#273035", // PlaylistCornerBorder [NEW]
+    "#696F73": "#696F73", // PlaylistCornerToggleColor [NEW]
+    "#353E43": "#353E43", // PlaylistScrollbars
+
+    "#FFBC40": "#FFBC40", // ToolsPencilMouseOverSelected [NEW]
+    "#77C5F2": "#77C5F2", // ToolsBrushMouseOverSelected [NEW]
+    "#A68BF3": "#A68BF3", // ToolsBrushInDrumSequencerMouseOverSelected [NEW]
+    "#FF5B53": "#FF5B53", // ToolDeleteMouseOverSelected [NEW]
+    "#FF53A9": "#FF53A9", // ToolMuteMouseOverSelected [NEW]
+    "#FFA04A": "#FFA04A", // ToolSlipAndPlaybackMouseOverSelected [NEW]
+    "#80ACFF": "#80ACFF", // ToolSliceAndZoomMouseOverSelected [NEW]
+    "#FFAB60": "#FFAB60", // ToolSelectMouseOverSelected [NEW]
+
+    "#5f686d": "#5f686d", // MixerEffectsBackground/TrackInspectorBackground/ChannelRackBackground (Duplicate?)
+    "#A8E44A": "#A8E44A", // MixerViewWaveFormsMouseOverSelected/ChannelRackLoopModeMouseOverSelected [NEW]
+    "#4ECCFF": "#4ECCFF"  // ChannelRackGraphEditor [NEW]
+    
+    },
+
+"hookReplacements": {
+
+    "#22323c": "#22323c", // SomeGridLines (Needs more documentation.)
+
+    "#f80512": "#f80512", // ToolbarWindowedLines (Unmaximize FL, it's the lines in the top corner)
+    "#E0E8EC": "#E0E8EC", // ToolbarCPUBar
+
+    "#5A6367": "#5A6367", // ToolbarEditorBottomBarBackground
+    "#566065": "#566065", // ToolbarEditorControlBackground
+    "#5C666B": "#5C666B", // ToolbarEditorControlNameBackground
+
+    "#353E43": "#353E43", // PlaylistPianoRollTopScrollbarBackground [NEW]
+    "#636C71": "#636C71", // PlaylistPianoRollTopScrollbarBorder [NEW]
+    "#FFB870": "#FFB870", // PlaylistPianoRollTopScrollbarBorderActivated/GeneralUISelectionBorder/PlaylistPianoRollPreciseTimeIndicatorMainLineColor (The ctrl+drag one) [NEW]
+    "#1D262B": "#1D262B", // PlaylistSkinnySidebar [NEW]
+    "#34444e": "#34444e", // PlaylistBackground
+
+    "#283842": "#283842", // PianoOctaveSeparator (Can't find?)
+    "#600000": "#600000", // PianoRollQuantizationFirstLineColor [NEW]
+    "#D00000": "#D00000", // PianoRollQuantizationSecondLineColor [NEW]
+
+    "#2B3439": "#2B3439", // MixerTracksHidePanelAndMetersControlAspect/PatternEvenSectionedStepCounter [NEW]
+    "#697278": "#697278", // MixerTracksTopBorder [NEW]
+    "#5F686D": "#5F686D", // MixerEQBackground (Duplicate?)
+    "#A8E44A": "#A8E44A", // MixerHighlightsAndChannelHighlights [NEW]
+
+    "#313C45": "#313C45", // ChannelRackBackground
+    "#323B40": "#323B40", // ChannelRackOddSectionedStepCounter [NEW]
+
+    "#333C41": "#333C41", // BrowserSubfolderLines
+
+    "#10202a": "#10202a", // TrackGridX
+    "#2a3a44": "#2a3a44"  // TrackGridY
+    },
+
+    "mixerColor": "#636C71",
+    "gridColor": "#33434D",
+    "defaultPatternColor": "#485156",
+    "defaultPlaylistTrackColor": "#485156",
+    "buttonColors": "#565E62",
+    //"browserColor": "#1A2328", // This is a gradient, the original color for which can't be redisplayed.
+    "browserFilesColor": "#36373E",
+
+    "sequencerBlocks": "#5D6367",
+    "sequencerBlocksHighlight": "#B6C6D0",
+    "sequencerBlocksAlt": "#6D5C5D", 
+    "sequencerBlocksAltHighlight": "#E1B4B6",
+
+    "dfm2": {
+	
+			      //"*":[
+                //{
+                //    "key":"QuickFont.Color",
+                //    "type":"hex32",
+                //    "value":"#D40000",
+                //    "noCreate":true
+                //},
+                //{
+                //    "key":"Font.Color",
+                //    "type":"hex32",
+                //    "value":"#D40000",
+                //    "noCreate":true
+                //},
+                //{
+                //    "key":"CheckOnColor",
+                //    "type":"hex32",
+                //    "value":"#D40000",
+                //    "noCreate":true
+                //}
+            //],
+			
+            "MIDIKb": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#000000",
+                    "noCreate":true
+                }
+            ],
+    
+            "SongPosSlider": [
+                {
+                    "key": "HandlePressedColor",
+                    "type": "hex32",
+                    "value": "#4A5257"
+                }
+            ],
+    
+            "SmoothFactorSlider": [
+                {
+                    "key": "FillColor",
+                    "type": "hex32",
+                    "value": "#FF0000"
+                }
+            ],
+    
+            "PBTrackingOfsSlider": [
+                {
+                    "key": "FillColor",
+                    "type": "hex32",
+                    "value": "#FF0000"
+                }
+            ],
+    
+            "RenderGauge": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#91979B"
+                },
+                {
+                    "key": "Color",
+                    "type": "hex32",
+                    "value": "#C9CFD3"
+                },
+                {
+                    "key": "BackColor",
+                    "type": "hex32",
+                    "value": "#41474B"
+                },
+                {
+                    "key": "GlowColor",
+                    "type": "hex32",
+                    "value": "#6DA9BC"
+                }
+            ],
+    
+            "WaitingGauge": [
+                {
+                    "key": "Color",
+                    "type": "hex32",
+                    "value": "#C9CFD3"
+                },
+                {
+                    "key": "BackColor",
+                    "type": "hex32",
+                    "value": "#393F43"
+                }
+            ],
+    
+            "RecBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D8E0E4"
+                },
+                {
+                    "key": "Color",
+                    "type": "hex32",
+                    "value": "#FF594C"
+                } 
+            ],
+    
+            "AboutNumLabel":[
+                {
+                    "key":"QuickFont.Color",
+                    "type":"hex32",
+                    "value":"#FFBC40"
+                }
+            ],
+            "InfoBox":[
+                {
+                    "key":"Color",
+                    "type":"hex32",
+                    "value":"#3C454B"
+                }
+            ],
+            "NewMainMenu":[
+                {
+                    "key":"QuickFont.Color",
+                    "type":"hex32",
+                    "value":"#E6F8F9"
+                }
+            ],
+            "CloseBtn":[
+                {
+                    "key":"QuickFont.Color",
+                    "type":"hex32",
+                    "value":"#C9CFD3"
+                },
+                {
+                    "key":"Color",
+                    "type":"hex32",
+                    "value":"#FF8060"
+                }
+            ],
+            "MinBtn":[
+                {
+                    "key":"QuickFont.Color",
+                    "type":"hex32",
+                    "value":"#C9CFD3"
+                },
+                {
+                    "key":"Color",
+                    "type":"hex32",
+                    "value":"#49B5F5"
+                }
+            ],
+            "MaxBtn":[
+                {
+                    "key":"QuickFont.Color",
+                    "type":"hex32",
+                    "value":"#C9CFD3"
+                },
+                {
+                    "key":"Color",
+                    "type":"hex32",
+                    "value":"#49B5F5"
+                }
+            ],
+  	        "PatBtn": [
+                {
+                    "key": "Color",
+                    "type": "hex32",
+                    "value": "#FB9244"
+                }
+            ],
+
+            "MetronomeBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+        
+            "LoopRecordBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "BlendRecordBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],                
+            "PrecountBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],    
+            "StartOnInputBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "KbToMIDIBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "AutoScrollBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "StepEditBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "EnableGroupsBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "MultiLinkBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ViewPLBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ViewSSBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ViewPRBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ViewSBBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ViewFXBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ViewProjPickerBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ViewPlugPickerBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ViewTTBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ViewKbBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+             ],
+            "SaveAsBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "RenderBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "EditAudioBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "RecAudioBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "SongSetBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "HelpBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "ArrangeBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "UndoBtn": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "CPUGauge": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "PolyDigiLabel": [
+                {
+                    "key": "QuickFont.Color",
+                    "type": "hex32",
+                    "value": "#D0D8DC"
+                }
+            ],
+            "WAVScope": [
+                {
+                    "key": "LineColor",
+                    "type": "hex32",
+                    "value": "#BEC6CA"
+                }
+            ],
+            "TimeScroller": [
+                {
+                    "checkParent": "EventEditForm",
+                    "key": "Color",
+                    "type": "hex32",
+                    "value": "#353E43"
+                }
+            ]
+    }
+
+}

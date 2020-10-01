@@ -1,0 +1,11 @@
+public _cvt64to80
+
+.code
+
+_cvt64to80 PROC
+    fld QWORD PTR [rcx]
+    fstp TBYTE PTR [rdx]
+    ret
+_cvt64to80 ENDP
+
+END
