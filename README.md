@@ -2,7 +2,7 @@
 
 ## Not flskinner.
 
-## Download the [latest release](https://github.com/liquiad/notflskinner/releases/latest/download/flskinner_x64_release.zip)
+## Download the [latest release](https://github.com/liquiad/notflskinner/releases/latest/download/notflskinner_x64_release.zip)
 
 ### What versions does this support?
 
